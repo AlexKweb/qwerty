@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%}
+body{line-height:1}
+ol,ul{list-style:none}
+
+
+header{display: flex;
+justify-content: space-between;
+margin: 50px 200px;}
+
+header img{
+
+    width: 231px;
+height: 77px;
+}
+.countries{
+    width: 400px;display: flex;justify-content: space-around;
+
+
+}
+.countries a{ text-decoration: none;
+    font-family: 'Carter One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    
+    color: #000000;}
+
+.space{margin-top: 43px;
+    text-align: center;
+    border-bottom: #000000 solid 1px;
+}
+.space img{
+    margin: 0;
+    box-shadow: -10px 5px 0px white,10px 5px 0px white;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10%;
+}
+section p{
+    width: 700px;
+font-family: 'Yanone Kaffeesatz';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 32px;
+
+color: #000000;
+}
+section img{
+  background: none;
+}
+
+
+
+.art1{background-color: #000000; background:url('img/Rectangle\ 1.jpg')  no-repeat;background-size: cover;
+    height: 100vh;
+}
+.art2{background-color: #000000; background:url('img/Rectangle\ 1\ \(1\).jpg')  no-repeat;background-size: cover;
+  height: 100vh;
+}
+.art3{background-color: #000000; background:url('img/Rectangle\ 1\ \(2\).jpg')  no-repeat;background-size: cover;
+  height: 100vh;
+}
+.art2 div{
+  width: 304px;
+  text-align: center;
+  margin-left: 5%;
+
+}
+article div{
+    width: 304px;
+    text-align: center;;
+    margin-left: 75%;
+
+}
+
+article div p:first-child{
+    
+font-family: 'Yanone Kaffeesatz';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+
+color: #FFFFFF;
+margin: 10px 0 150px;
+
+
+}
+article div p:nth-child(2),
+article div p:nth-child(3),
+article div p:nth-child(4){
+    
+    font-family: 'Yanone Kaffeesatz';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+
+color: #FFFFFF;
+margin-top: 10px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+footer{ margin: 50px 10px;
+    font-family: 'Yanone Kaffeesatz';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 45px;
+
+color: #000000;
+display: flex;
+justify-content: space-around;
+}
+footer ol{
+    display: flex;
+justify-content: space-between;
+
+}
+footer ol li{margin: 0 5px;
+filter: invert(100%)
+}
+
+
+
+
+/* CSS */
+.button-78 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 100px 0 0 0px;
+  min-height: 84px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button-78 {
+    padding: 19px 32px;
+  }
+}
+
+.button-78:before,
+.button-78:after {
+  border-radius: 80px;
+}
+
+.button-78:before {
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-78:after {
+  background-color: initial;
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-78:hover:not(:disabled):before {
+  background: linear-gradient(92.83deg, rgb(255, 116, 38) 0%, rgb(249, 58, 19) 100%);
+}
+
+.button-78:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+  opacity: 0;
+}
+
+.button-78:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-78:active:not(:disabled):before {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+}
+
+.button-78:active:not(:disabled):after {
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-78:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+
+
+
+
+
+
+
+
+canvas{background-color: #00FF19
+  ;}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1315px) {
+  section{
+    display: flex;
+    flex-direction: column;
+}
+section p{margin: 20px 0;
+  align-self: center;
+}
+section img{
+  align-self: center;
+}
+
+header{display: flex;
+  justify-content: space-between;
+  margin: 50px 5%;}
+  
+  header img{
+  
+      width: 231px;
+  height: 77px;
+  }
+  .countries{
+      width: 400px;display: flex;justify-content: space-evenly;}
+
+  article div,.art2 div{
+        width: 304px;
+        margin: auto
+    }
+}
+
+@media (max-width: 940px){
+footer{
+  flex-direction: column;
+}}
+@media (max-width: 375px){
+  section p{width: 307px;
+    font-family: 'Yanone Kaffeesatz';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    
+    color: #000000;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
